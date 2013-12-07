@@ -24,6 +24,17 @@
             <li><a href="#">Контакты</a></li>
         </ul>
         </div>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(function() {
+		$('.header li a').click(function() {
+			if ($('.header').hasClass('minimized')) {
+				$('.header').removeClass('minimized');
+			} else {
+				$('.header').addClass('minimized');
+			}
+		})
+	})
+	</script>
     </body>
 </html>

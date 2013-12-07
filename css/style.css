@@ -15,9 +15,18 @@ body{
 }
 
 .header {
-	margin: 2em auto;
 	width: 100%;
+	margin-top: 2em;
 	text-align: center;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.minimized {
+	width: 400px;
 }
 
 h1 {
@@ -38,22 +47,20 @@ a {
 }
 
 .bmenu {
-	margin: 0 auto;
 	margin-top: 5em;
 	padding: 0px;
 }
 
 .bmenu li {
     font-size: 50px;
-    display: block;
 }
 
 .bmenu li a {
 	color: transparent;
-	display: block;
 	text-transform: uppercase;
 	text-shadow: 0px 0px 5px #fff;
 	letter-spacing: 1px;
+	outline: none;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
